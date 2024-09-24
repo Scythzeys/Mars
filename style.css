@@ -1,0 +1,121 @@
+body{
+  background-color: #cd5d5d;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 40px;
+}
+main {
+  background-color: #dedbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 66px auto;
+}
+.logger {
+  width: 600px;
+  height: 750px;
+  background-color: #fff;
+  border: solid #dedbdb;
+  border-radius: 50px;
+  margin: 40px auto;
+}
+
+.offerta {
+  display: flex;
+  align-items: center;
+  color: #f0400f;
+  font-weight: 700;
+  gap: 10px;
+}
+.choose {
+  width: 500px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  gap: 90px;
+  border-radius: 20px;
+}
+.student {
+  width: 250px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  color: #0e0d5d;
+  font-weight: 800;
+}
+.space_logger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.insert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+}
+.input_saver {
+  width: 500px;
+  color: #757575b2;
+  font-size:24px;
+  margin: 20px;
+  height: 70px;
+  border-radius: 20px;
+  background-color: #fafafa;
+  border: 1px solid #757575b2;
+  padding-left: 40px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: #000000A3;
+    font-size: 20px;
+}
+button{
+    background-color: #F69E86;
+    color: white;
+    width: 200px;
+    height: 70px;
+    border-radius: 20px;
+    border: solid white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.btn-flex {
+    display: flex;
+    justify-content: end;
+}
